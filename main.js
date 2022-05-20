@@ -7,6 +7,7 @@ let buzzStyle = '<div class="col"><div class="square normal-square buzz">Buzz</d
 let fizzBuzzStyle = '<div class="col"><div class="square normal-square fizz-buzz">FizzBuzz</div></div>';
 
 for (let i = 1; i <= 100; i++) {
+    
     if ((i % 3 === 0) && (i % 5 === 0)) {
         console.log('FizzBuzz');
         squaresContainer.innerHTML += fizzBuzzStyle;
