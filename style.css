@@ -1,4 +1,41 @@
-.row-cols-7 > * {
-    flex: 0 0 auto;
-    width: 14%;
+h1 {
+    color: white;
+}
+
+
+
+.section {
+    background-color: #0E3B4C;
+}
+
+.square {
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.normal-square {
+    background-color: #2C89B2;
+}
+
+.fizz {
+    background-color: #44D6A0;
+}
+
+.buzz {
+    background-color: #FAD166;
+}
+
+.fizz-buzz {
+    background-color: #F0466F;
+}
+
+
+@media screen and (min-width: 960px) {
+    .row-cols-7 > * {
+        flex: 0 0 auto;
+        width: 14%;
+    }
 }
