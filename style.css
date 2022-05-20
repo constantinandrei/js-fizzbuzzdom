@@ -6,6 +6,7 @@ h1 {
 
 .section {
     background-color: #0E3B4C;
+    min-height: 2000px;
 }
 
 .square {

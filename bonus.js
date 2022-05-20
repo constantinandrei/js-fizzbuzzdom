@@ -2,9 +2,9 @@ const squaresContainer = document.getElementById('squares-container')
 
 let normalBeforeStyle = '<div class="col"><div class="square normal-square">';
 let normalAfterStyle = '</div></div>';
-let fizzStyle = '<div class="col"><div class="square normal-square fizz">Fizz</div></div>';
-let buzzStyle = '<div class="col"><div class="square normal-square buzz">Buzz</div></div>';
-let fizzBuzzStyle = '<div class="col"><div class="square normal-square fizz-buzz">FizzBuzz</div></div>';
+let fizzStyle = '<div class="col"><div class="square fizz">Fizz</div></div>';
+let buzzStyle = '<div class="col"><div class="square buzz">Buzz</div></div>';
+let fizzBuzzStyle = '<div class="col"><div class="square fizz-buzz">FizzBuzz</div></div>';
 
 for (let i = 1; i <= 100; i++) {
     setTimeout(function() {
